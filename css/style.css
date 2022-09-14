@@ -1,0 +1,202 @@
+ @import url('https //fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&dispaly=swap');
+ 
+ html {
+    overflow-y: scroll; 
+    overflow-x:hidden;
+    height: 100%;
+    padding-top: 44px;
+}
+body{
+    position: absolute;
+}
+header{
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+#home1{
+    width:100%;
+    height: 25vh;
+    box-shadow: 0px 0px 30px rgba(172, 169, 169, 0.842);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+
+}
+.slogan{
+    margin: 20px;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+.slogan h2 {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #425262;
+    font-weight: bold;
+}
+.slogan h3 {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #676768;
+    font-style: normal;
+    font-weight: 200
+}
+
+.section{
+    width: 100%;
+
+}
+.section .container{
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+    padding: 50px 0px;
+
+}
+.container .title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.container .title h1{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #064975;
+}
+.container .title h1::after{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: #609be5;
+    border-radius:25px ;
+    display: block;
+    margin: auto;
+}
+.content .article h3{
+    text-align: justify;
+    margin-top: 20px;
+    color: #a3a3a3;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.content .article p{
+    text-align: justify;
+    margin-top: 20px;
+    color: #a3a3a3;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.content .article .button{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.content .article .button a{
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: #064975;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    
+}
+.content .article .button a:hover{
+    color:#fff ;
+    background-color: #a2cce7;
+    transition: 1s ease;
+}
+@media screen and (max-width:768px) {
+    .section .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+
+    }
+    .content{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+
+    }
+    .container .title h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .container .article .button{
+        text-align: center;
+    }
+    .container .article .button a{
+        padding: 6px 15px;
+        font-size: 16px;
+    }
+    
+    
+}
+/* 
+#info{
+    width: 100%;
+    box-shadow: 0px 0px 30px rgba(172, 169, 169, 0.842);
+    padding: 5px 100px 0 100px;
+    text-align: center;
+}
+#info .info-i h1{
+    padding: 10px 30px 0 30px ;
+    font-weight: 600;
+}
+#info .info-i p{
+    padding: 10px 30px 0 30px ;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+#info .about{
+    padding: 10px 30px 0 30px;
+    height: 35vh;
+}
+#info .about-base{
+    box-shadow: 0px 0px 30px  rgba(172, 169, 169, 0.842);
+    height: 20vh;
+    background-color:#f9f9ff ;
+    text-align: center;
+}
+#info .about-base h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(4, 90, 112);
+    padding: 13px 0 7px 0;
+}
+#info .about-base p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(17, 71, 102);
+}
+ */
+
+/* card*/
+div.card {
+    float: none;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding:10px;
+    
+  }
+  
+  
+   .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
